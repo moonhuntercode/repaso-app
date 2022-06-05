@@ -1,0 +1,17 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+.search_container{
+    background-color: rgb(31, 31, 31);
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    text-align: center;
+}
+.search_top{
+    place-content: start center;
+}
+.search_center{
+    place-content: center;
+}

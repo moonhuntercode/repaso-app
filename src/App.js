@@ -1,5 +1,5 @@
 import './css/App.css'
-import Search from './views/Search';
+import Search from './views/Search/Search';
 const App = () => {
   return <Search/>
 }

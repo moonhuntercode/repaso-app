@@ -1,6 +1,8 @@
 .search_Box{
-
+background-color: rgb(41, 0, 138);
+color: white;
 }
-.search_box_input{
-    
+.search_box_input , button{
+    width: 100%;
+
 }
