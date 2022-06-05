@@ -18,7 +18,7 @@ const SearchBox = ({onSearch,onClose}) => {
              onChange={({target:{value}})=>setSearchText(value)}
              />
         </label><br />
-        <button onClick={onSearch} >search</button>
+        <button onClick={()=>onSearch(searchText)} >search</button>
         <button onClick={handleCloseSearch} >cerrar</button>
         </div>
        

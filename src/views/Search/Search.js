@@ -1,9 +1,10 @@
 // Si queremos lo volvemos arrow function
+// pero pa en otra ocación  
 
 import { useState } from "react"
 import SearchBox from "./Components/SearchBox/SearchBox"
 import './Search.css'
-// pero pa en otra ocación  
+import data from '../../data/Users.json';
 export default function Search() {
   const [isAtTop,setIsAtTop]=useState(false)
   const handleCloseOpenSearch=()=>setIsAtTop(!isAtTop)
